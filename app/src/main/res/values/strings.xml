@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Fruity Match</string>
+    <string name="aciertos">Aciertos:</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="intentos">Intentos:</string>
+    <string name="tarjeta_1">Tarjeta 1</string>
+    <string name="tarjeta_2">Tarjeta 2</string>
+    <string name="tarjeta_3">Tarjeta 3</string>
+    <string name="tarjeta_4">Tarjeta 4</string>
+    <string name="tarjeta_5">Tarjeta 5</string>
+    <string name="tarjeta_6">Tarjeta 6</string>
+    <string name="tarjeta_7">Tarjeta 7</string>
+    <string name="tarjeta_8">Tarjeta 8</string>
+    <string name="tarjeta_9">Tarjeta 9</string>
+    <string name="tarjeta_10">Tarjeta 10</string>
+    <string name="tarjeta_11">Tarjeta 11</string>
+    <string name="tarjeta_12">Tarjeta 12</string>
+    <string name="tarjeta_13">Tarjeta 13</string>
+    <string name="tarjeta_14">Tarjeta 14</string>
+    <string name="tarjeta_15">Tarjeta 15</string>
+    <string name="tarjeta_16">Tarjeta 16</string>
+    <string name="exit">Salir</string>
+    <string name="start">Jugar</string>
+    <string name="autor">Autor</string>
+    <string name="mariano_manuel_torrado_s_nchez">Mariano Manuel Torrado Sánchez</string>
+    <string name="github">GitHub</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="buttonMenu">Volver al menú</string>
+    <string name="links">Enlaces</string>
+</resources>

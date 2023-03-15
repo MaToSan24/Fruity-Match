@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:backgroundTint="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:textColor="?android:textColorPrimary"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonJugar"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textSize="48sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/autor"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewAutor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/mariano_manuel_torrado_s_nchez"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textViewLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:autoLink="web"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="@string/links"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/background_light"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textViewGithub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:text="@string/github"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewLinkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:end="20sp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:text="@string/linkedin"
+            android:layout_marginStart="20dp"
+            android:textColor="?android:textColorPrimary"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
