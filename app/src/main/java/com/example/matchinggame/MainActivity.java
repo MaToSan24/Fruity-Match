@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openLinkedin() {
-        String link = "https://www.linkedin.com/in/mariano-manuel-torrado-s%C3%A1nchez-9050aa1b3/";
+        String link = "https://www.linkedin.com/in/MaToSan24";
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
         startActivity(intent);
     }
